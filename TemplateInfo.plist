@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Name:</string>
+			<key>Description</key>
+			<string>The name of the Module</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>DefaultCompletionName</key>
+			<string>Untitled</string>
+			<key>NotPersisted</key>
+			<string>true</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>baseViewController</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Base View Controller:</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>DefaultCompletionName</key>
+			<string>UIViewController</string>
+			<key>SortOrder</key>
+			<integer>2</integer>
+			<key>NotPersisted</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>baseView</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Base View:</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>DefaultCompletionName</key>
+			<string>UIView</string>
+			<key>SortOrder</key>
+			<integer>3</integer>
+			<key>NotPersisted</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>baseViewModel</string>
+			<key>Required</key>
+			<false/>
+			<key>Name</key>
+			<string>Base View Model:</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>SortOrder</key>
+			<integer>4</integer>
+			<key>NotPersisted</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>mode</string>
+			<key>Name</key>
+			<string>Mode:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>SortOrder</key>
+			<string>5</string>
+			<key>Values</key>
+			<array>
+				<string>Lite</string>
+				<string>Medium with Table View Delegates</string>
+				<string>Medium with View Delegates</string>
+				<string>Full</string>
+			</array>
+			<key>Default</key>
+			<string>Lite</string>
+			<key>NotPersisted</key>
+			<string>0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
