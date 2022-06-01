@@ -2,7 +2,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Controller: ___VARIABLE_baseViewController___, ContainerView {
+class ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_baseViewController___, ContainerView {
 
     typealias ViewClass = ___VARIABLE_productName:identifier___View
 

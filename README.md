@@ -1,18 +1,18 @@
 # README
 
 ## Lite
-- Container view does not send any action to view controller
-- Table view and its data source and delegate are not implemented
+- [ ] Container view sends action to view controller
+- [ ] Table view and its data source and delegate are implemented
 
 ## Medium with Table View Delegates
-- Container view does not send any action to view controller
-- Table view and its data source and delegate are implemented
+- [ ] Container view sends action to view controller
+- [x] Table view and its data source and delegate are implemented
 
 ## Medium with View Delegates
-- Container view sends actions to view controller
-- Table view and its data source and delegate are not implemented
+- [x] Container view sends action to view controller
+- [ ] Table view and its data source and delegate are implemented
 
 ## Full
-- Container view sends actions to view controller
-- Table view and its data source and delegate are implemented
+- [x] Container view sends action to view controller
+- [x] Table view and its data source and delegate are implemented
 
